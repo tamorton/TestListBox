@@ -1,0 +1,69 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'Test ListBox'
+  ClientHeight = 379
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ListBox: TListBox
+    Position.X = 104.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 353.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 196.000000000000000000
+    Viewport.Height = 349.000000000000000000
+  end
+  object AddHeaderButton: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 16.000000000000000000
+    TabOrder = 1
+    Text = 'Add Header'
+    OnClick = AddHeaderButtonClick
+  end
+  object AddItemButton: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 48.000000000000000000
+    TabOrder = 2
+    Text = 'Add Item'
+    OnClick = AddItemButtonClick
+  end
+  object OutputMemo: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Lines.Strings = (
+      'Click Add Header button.'
+      'Mouse over header in list and notification is posted.'
+      ''
+      'Click Add Item button.'
+      'Item will respond to mouse enter, but header now does not.'
+      ''
+      'Click Clear button.'
+      'Add two headers.'
+      'Both headers respond to mouse enter.'
+      '')
+    Position.X = 320.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 297.000000000000000000
+    Size.Height = 353.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Viewport.Width = 293.000000000000000000
+    Viewport.Height = 333.000000000000000000
+  end
+  object ClearButton: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 80.000000000000000000
+    TabOrder = 4
+    Text = 'Clear'
+    OnClick = ClearButtonClick
+  end
+end
