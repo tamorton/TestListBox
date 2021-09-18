@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2021/09/17 22:48:01.482,=C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>2021/09/17 22:48:01.559,=C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>2021/09/17 22:49:32.029,C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\TestListBox\Main.cpp=C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>2021/09/17 22:49:32.029,C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\TestListBox\Main.h=C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
-    <Transaction>2021/09/17 22:49:32.029,C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\TestListBox\Main.fmx=C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
-    <Transaction>2021/09/17 22:49:35.930,C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\TestListBox\pch.h=C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>2021/09/17 22:49:42.016,C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\TestListBox\TestListBox.cbproj=C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+	<Transactions>
+    <Transaction>2021/09/17 22:48:01.000.559,=C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/09/17 22:48:01.000.482,=C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/09/17 22:49:32.000.029,C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\TestListBox\Main.h</Transaction>
+    <Transaction>2021/09/17 22:49:32.000.029,C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\TestListBox\Main.fmx</Transaction>
+    <Transaction>2021/09/17 22:49:32.000.029,C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\TestListBox\Main.cpp</Transaction>
+    <Transaction>2021/09/17 22:49:35.000.930,C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\TestListBox\pch.h</Transaction>
+    <Transaction>2021/09/17 22:49:42.000.016,C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\BioLogic\Documents\Embarcadero\Studio\Projects\TestListBox\TestListBox.cbproj</Transaction>
   </Transactions>
 </BorlandProject>

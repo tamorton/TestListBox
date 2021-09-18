@@ -2,7 +2,7 @@ object MainForm: TMainForm
   Left = 0
   Top = 0
   Caption = 'Test ListBox'
-  ClientHeight = 379
+  ClientHeight = 552
   ClientWidth = 640
   FormFactor.Width = 320
   FormFactor.Height = 480
@@ -39,17 +39,6 @@ object MainForm: TMainForm
   object OutputMemo: TMemo
     Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
     DataDetectorTypes = []
-    Lines.Strings = (
-      'Click Add Header button.'
-      'Mouse over header in list and notification is posted.'
-      ''
-      'Click Add Item button.'
-      'Item will respond to mouse enter, but header now does not.'
-      ''
-      'Click Clear button.'
-      'Add two headers.'
-      'Both headers respond to mouse enter.'
-      '')
     Position.X = 320.000000000000000000
     Position.Y = 16.000000000000000000
     Size.Width = 297.000000000000000000
@@ -57,7 +46,7 @@ object MainForm: TMainForm
     Size.PlatformDefault = False
     TabOrder = 3
     Viewport.Width = 293.000000000000000000
-    Viewport.Height = 333.000000000000000000
+    Viewport.Height = 349.000000000000000000
   end
   object ClearButton: TButton
     Position.X = 8.000000000000000000
@@ -65,5 +54,25 @@ object MainForm: TMainForm
     TabOrder = 4
     Text = 'Clear'
     OnClick = ClearButtonClick
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Lines.Strings = (
+      'Click Add Header button.'
+      'Click on header in list.'
+      'OnClick is called.'
+      ''
+      'Click on Add Item button.'
+      'Item in list responds to mouse click,'
+      'but now header does not.')
+    Position.X = 104.000000000000000000
+    Position.Y = 384.000000000000000000
+    Size.Width = 513.000000000000000000
+    Size.Height = 145.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Viewport.Width = 509.000000000000000000
+    Viewport.Height = 141.000000000000000000
   end
 end
