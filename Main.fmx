@@ -55,16 +55,15 @@ object MainForm: TMainForm
     Text = 'Clear'
     OnClick = ClearButtonClick
   end
-  object Memo1: TMemo
+  object Memo: TMemo
     Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
     DataDetectorTypes = []
     Lines.Strings = (
       'Click Add Header button.'
-      'Click on header in list.'
-      'OnClick is called.'
+      'Header responds to mouse events.'
       ''
       'Click on Add Item button.'
-      'Item in list responds to mouse click,'
+      'Item in list responds to mouse events,'
       'but now header does not.')
     Position.X = 104.000000000000000000
     Position.Y = 384.000000000000000000

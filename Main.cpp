@@ -28,6 +28,7 @@ void __fastcall TMainForm::AddHeaderButtonClick(TObject *Sender)
 	header->Text = String(L"Header") + IntToStr(headerCount);
 	header->HitTest = true;
 	header->OnClick = MouseClick;
+	header->OnMouseEnter = MouseEnter;
 }
 //---------------------------------------------------------------------------
 
@@ -41,6 +42,7 @@ void __fastcall TMainForm::AddItemButtonClick(TObject *Sender)
 	item->Text = String(L"Item") + IntToStr(itemCount);
 	item->HitTest = true;
 	item->OnClick = MouseClick;
+	item->OnMouseEnter = MouseEnter;
 }
 //---------------------------------------------------------------------------
 
@@ -50,6 +52,16 @@ void __fastcall TMainForm::MouseClick(TObject *Sender)
 	if(item == nullptr) return;
 
 	String msg = item->Text + L" clicked";
+	OutputMemo->Lines->Add(msg);
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TMainForm::MouseEnter(TObject *Sender)
+{
+	TListBoxItem* item = dynamic_cast<TListBoxItem*>(Sender);
+	if(item == nullptr) return;
+
+	String msg = item->Text + L" entered";
 	OutputMemo->Lines->Add(msg);
 }
 //---------------------------------------------------------------------------

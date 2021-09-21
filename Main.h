@@ -23,7 +23,7 @@ __published:	// IDE-managed Components
 	TButton *AddItemButton;
 	TMemo *OutputMemo;
 	TButton *ClearButton;
-	TMemo *Memo1;
+	TMemo *Memo;
 	void __fastcall AddHeaderButtonClick(TObject *Sender);
 	void __fastcall AddItemButtonClick(TObject *Sender);
 	void __fastcall ClearButtonClick(TObject *Sender);
@@ -31,6 +31,7 @@ private:	// User declarations
 	int headerCount;
 	int itemCount;
 	void __fastcall MouseClick(TObject *Sender);
+	void __fastcall MouseEnter(TObject *Sender);
 public:		// User declarations
 	__fastcall TMainForm(TComponent* Owner);
 };
